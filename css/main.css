@@ -1,0 +1,17 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    height: 97vh;
+    width: 100vh;
+}
+
+.header{
+    height: 30vh;
+    background-color: black;
+}
+
+.buttons{
+    
+}
