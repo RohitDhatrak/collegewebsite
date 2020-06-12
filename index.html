@@ -3,29 +3,73 @@
     <head>
         <meta charset="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <title>Btec EXTC (2022)</title>
+        <title>Btec EXTC Portal</title>
         <link rel="stylesheet" href="./css/main.css" />
+        <script
+            src="https://kit.fontawesome.com/1bfbb0c4a6.js"
+            crossorigin="anonymous"
+        ></script>
     </head>
 
     <body>
         <header class="header"></header>
-        <section class="buttons">
-            <div class="row1">
-                <button class="button button1">
-                    <a href="" download>Button</a>
-                </button>
-                <button class="button button2">
-                    <a href="" download>Button</a>
-                </button>
-            </div>
-            <div class="row2">
-                <button class="button button3">
-                    <a href="" download>Button</a>
-                </button>
-                <button class="button button4">
-                    <a href="" download>Button</a>
-                </button>
-            </div>
-        </section>
+        <main class="main-section">
+            <section class="buttons">
+                <div class="row1">
+                    <button
+                        onclick="location.href = './learningresources.html';"
+                        class="button button1"
+                    >
+                        <img
+                            class="icons"
+                            src="./images/reading.svg"
+                            alt="Picture of a book"
+                        />
+                        Learning Resources
+                    </button>
+                    <button
+                        onclick="location.href = './importantdates.html';"
+                        class="button button2"
+                    >
+                        <img
+                            class="icons"
+                            src="./images/calendar.svg"
+                            alt="Picture of a book"
+                        />
+                        Important Dates
+                    </button>
+                </div>
+                <div class="row2">
+                    <button
+                        onclick="location.href = './syllabus.html';"
+                        class="button button3"
+                    >
+                        <img
+                            class="icons"
+                            src="./images/doc.svg"
+                            alt="Picture of a book"
+                        />
+                        Syllabus
+                    </button>
+                    <button
+                        onclick="location.href = './extraresources.html';"
+                        class="button button4"
+                    >
+                        <img
+                            class="icons"
+                            src="./images/video.svg"
+                            alt="Picture of a book"
+                        />
+                        Extra Resources
+                    </button>
+                </div>
+            </section>
+        </main>
+        <footer class="footer">
+            Designed and coded by &nbsp;
+            <a class="credits" href="https://www.linkedin.com/in/rohitdhatrak/"
+                >Rohit Dhatrak</a
+            >
+        </footer>
     </body>
 </html>

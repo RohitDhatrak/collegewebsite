@@ -9,13 +9,13 @@ body {
 
 .header {
     width: 100%;
-    height: 35%;
+    height: 15%;
     border-radius: 2em;
     background-color: lightpink;
 }
 
 .main-section {
-    height: 64.5%;
+    height: 84.5%;
     width: 100%;
     border-radius: 2em 2em 0em 0em;
     background-color: mediumpurple;
@@ -33,40 +33,4 @@ body {
 .credits {
     /* text-decoration: ; */
     color: mintcream;
-}
-
-.row1 {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-}
-
-.row2 {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-}
-
-.button {
-    margin-top: 1rem;
-    border-radius: 3rem;
-    font-size: 1.7rem;
-    width: 20%;
-    height: 8rem;
-    border: none;
-}
-
-.button:last-child {
-    margin-left: 1rem;
-}
-
-.button1,
-.button2 {
-    margin-top: 6rem;
-}
-
-.icons {
-    height: 3em;
-    display: block;
-    margin: auto;
 }
