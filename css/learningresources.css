@@ -10,27 +10,41 @@ body {
 .header {
     width: 100%;
     height: 15%;
-    border-radius: 2em;
-    background-color: lightpink;
+    border-radius: 0em 0em 2em 2em;
+    background-color: #e8d0f2;
+    display: flex;
+    align-items: center;
 }
 
 .main-section {
     height: 84.5%;
     width: 100%;
     border-radius: 2em 2em 0em 0em;
-    background-color: mediumpurple;
+    background-color: #faf0eb;
 }
 
 .footer {
     height: 3.5%;
-    background-color: mediumpurple;
+    background-color: #faf0eb;
     font-size: 1.1rem;
-    color: mintcream;
+    color: #ae68cc;
     display: flex;
     justify-content: center;
+    font-weight: bold;
 }
 
 .credits {
-    /* text-decoration: ; */
-    color: mintcream;
+    text-decoration: none;
+    border-bottom: dotted 1.2px;
+    height: 19px;
+    color: #ae68cc;
+}
+
+.credits:hover {
+    text-decoration: none;
+    border-bottom: none;
+}
+
+.head-links {
+    text-decoration: none;
 }
