@@ -1,8 +1,8 @@
 RewriteEngine On
-RewriteRule ^index\.html$ / [R=301,L]
-RewriteRule ^(.*)/index\.html$ /$1/ [R=302,L]
+RewriteRule ^index\.html$ / [NC,L]
+RewriteRule ^(.*)/index\.html$ /$1/ [NC,L]
 
 RewriteEngine on
 RewriteCond %{REQUEST_FILENAME} !-d
 RewriteCond %{REQUEST_FILENAME}\.html -f
-RewriteRule ^(.*)\.html$ /$1 [L,R=302]
+RewriteRule ^(.*)$ $1.html [NC,L]
