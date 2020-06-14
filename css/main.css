@@ -40,8 +40,8 @@ body {
 
 .credits {
     text-decoration: none;
-    border-bottom: dotted 1.2px;
-    height: 19px;
+    border-bottom: dotted 0.1em;
+    height: 1.08em;
     color: #ae68cc;
 }
 
@@ -70,6 +70,12 @@ body {
     height: 8rem;
     border: none;
     background-color: #e2bff1;
+    cursor: pointer;
+    box-shadow: 0px 2px 25px 0px rgba(110, 130, 208, 0.18);
+}
+
+button:hover {
+    background-color: #d4afe4;
 }
 
 .button:last-child {

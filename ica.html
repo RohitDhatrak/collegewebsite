@@ -8,7 +8,19 @@
         />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <title>Learning Resources</title>
-        <link rel="stylesheet" href="./css/learningresources.css" />
+        <link rel="stylesheet" href="./css/pages.css" />
+        <style>
+            .ica {
+                height: 30em;
+                width: 85%;
+                border-radius: 1em;
+                margin: auto;
+                background-color: #e2bff1;
+            }
+            .footer {
+                margin-top: 5.5em;
+            }
+        </style>
         <!-- Global site tag (gtag.js) - Google Analytics -->
         <script
             async
@@ -36,12 +48,31 @@
                 >Extra Resources</a
             >
         </header>
-        <main class="main-section"></main>
+        <main class="main-section">
+            <h1 class="title">ICA</h1>
+            <div class="ica"></div>
+        </main>
         <footer class="footer">
             Created by &nbsp;
             <a class="credits" href="https://www.linkedin.com/in/rohitdhatrak/"
                 >Rohit Dhatrak</a
             >
         </footer>
+        <script>
+            const acc = document.getElementsByClassName("accordion");
+            let i;
+
+            for (i = 0; i < acc.length; i++) {
+                acc[i].addEventListener("click", function () {
+                    this.classList.toggle("active");
+                    let panel = this.nextElementSibling;
+                    if (panel.style.maxHeight) {
+                        panel.style.maxHeight = null;
+                    } else {
+                        panel.style.maxHeight = panel.scrollHeight + "px";
+                    }
+                });
+            }
+        </script>
     </body>
 </html>
