@@ -149,8 +149,8 @@ button:hover {
 @media (min-width: 380px) and (max-width: 420px) {
     .button {
         font-size: 1.3rem;
-        width: 6.3em;
-        height: 6.2em;
+        width: 6em;
+        height: 6em;
         border-radius: 2em;
     }
 
@@ -172,11 +172,11 @@ button:hover {
 }
 
 /* longer phones */
-@media (min-height: 800px) and (max-height: 900px) {
+@media (min-height: 800px) and (max-height: 896px) {
     .button {
         font-size: 1.3rem;
-        width: 6.3em;
-        height: 6.2em;
+        width: 6.2em;
+        height: 6em;
         border-radius: 2em;
     }
 
@@ -203,7 +203,17 @@ button:hover {
 }
 
 @media only screen and (min-device-width: 414px) and (min-device-height: 896px) and (-webkit-device-pixel-ratio: 2) and (orientation: portrait) {
+    .button {
+        width: 6.3em;
+        height: 6.2em;
+        border-radius: 2em;
+    }
+
     .footer {
-        color: black;
+        font-size: 1.5rem;
+    }
+
+    body {
+        height: 75vh;
     }
 }
