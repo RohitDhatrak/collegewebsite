@@ -96,8 +96,8 @@ button:hover {
 @media (min-width: 320px) and (max-width: 380px) {
     .button {
         font-size: 1.1rem;
-        width: 6em;
-        height: 6em;
+        width: 6.2em;
+        height: 6.2em;
         border-radius: 2em;
     }
 
