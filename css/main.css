@@ -202,32 +202,8 @@ button:hover {
     }
 }
 
-/* @media (min-width: 400px) and (max-width: 420px) and (min-height: 800px) and (max-height: 900px) {
-    .button {
-        font-size: 1.4rem;
-        width: 6em;
-        height: 6em;
-        border-radius: 2em;
-    }
-
-    .icons {
-        height: 2.5em;
-    }
-
-    .header {
-        font-size: 1.7rem;
-    }
-
+@media only screen and (min-device-width: 414px) and (min-device-height: 896px) and (-webkit-device-pixel-ratio: 2) and (orientation: portrait) {
     .footer {
-        font-size: 1.2rem;
+        color: black;
     }
-
-    .button1,
-    .button2 {
-        margin-top: 5em;
-    }
-
-    body {
-        height: 80vh;
-    }
-} */
+}
