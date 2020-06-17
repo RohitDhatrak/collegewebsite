@@ -94,7 +94,7 @@ button:hover {
 }
 
 /* small phones */
-@media (min-width: 320px) and (max-width: 374px) {
+@media (min-width: 320px) and (max-width: 375px) {
     .button {
         font-size: 1.15rem;
         width: 6.3em;
@@ -119,8 +119,8 @@ button:hover {
     }
 }
 
-/* old phones */
-@media (min-width: 320px) and (max-width: 374px) and (max-height: 600px) {
+/* old(short) phones */
+@media (min-width: 320px) and (max-width: 375px) and (max-height: 600px) {
     .button {
         font-size: 1rem;
         width: 6.3em;
@@ -146,7 +146,7 @@ button:hover {
 }
 
 /* standard phones */
-@media (min-width: 375px) and (max-width: 420px) {
+@media (min-width: 380px) and (max-width: 420px) {
     .button {
         font-size: 1.3rem;
         width: 6em;
@@ -164,6 +164,7 @@ button:hover {
 
     .footer {
         font-size: 1rem;
+        color: black;
     }
 
     body {
@@ -172,10 +173,10 @@ button:hover {
 }
 
 /* longer phones */
-@media (min-height: 800px) and (max-height: 896px) {
+@media (min-height: 800px) and (max-height: 900px) {
     .button {
         font-size: 1.3rem;
-        width: 6em;
+        width: 6.2em;
         height: 6em;
         border-radius: 2em;
     }
@@ -190,6 +191,7 @@ button:hover {
 
     .footer {
         font-size: 1.1rem;
+        color: blue;
     }
 
     .button1,
@@ -202,7 +204,7 @@ button:hover {
     }
 }
 
-@media (min-width: 400px) and (max-width: 420px) and (min-height: 800px) and (max-height: 896px) {
+/* @media (min-width: 400px) and (max-width: 420px) and (min-height: 800px) and (max-height: 900px) {
     .button {
         font-size: 1.4rem;
         width: 6em;
@@ -230,4 +232,4 @@ button:hover {
     body {
         height: 80vh;
     }
-}
+} */
