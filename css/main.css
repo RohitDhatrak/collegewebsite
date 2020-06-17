@@ -96,7 +96,7 @@ button:hover {
 @media (min-width: 320px) and (max-width: 380px) {
     .button {
         font-size: 1.1rem;
-        width: 6.2em;
+        width: 6.3em;
         height: 6.2em;
         border-radius: 2em;
     }
@@ -111,6 +111,10 @@ button:hover {
 
     .footer {
         font-size: 1rem;
+    }
+
+    body {
+        height: 95vh;
     }
 }
 
@@ -132,6 +136,10 @@ button:hover {
 
     .footer {
         font-size: 1rem;
+    }
+
+    body {
+        height: 95vh;
     }
 }
 
@@ -158,5 +166,9 @@ button:hover {
     .button1,
     .button2 {
         margin-top: 5.5em;
+    }
+
+    body {
+        height: 95vh;
     }
 }
