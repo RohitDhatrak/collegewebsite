@@ -146,7 +146,7 @@ button:hover {
 }
 
 /* standard phones */
-@media (min-width: 375px) and (max-width: 420px) {
+@media (min-width: 375px) and (max-width: 480px) {
     .button {
         font-size: 1.3rem;
         width: 6.3em;
