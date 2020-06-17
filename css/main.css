@@ -96,7 +96,7 @@ button:hover {
 /* small phones */
 @media (min-width: 320px) and (max-width: 375px) {
     .button {
-        font-size: 1.2rem;
+        font-size: 1.4rem;
         width: 6.3em;
         height: 6.2em;
         border-radius: 2em;
