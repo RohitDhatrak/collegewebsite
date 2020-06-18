@@ -61,9 +61,17 @@ body {
     margin-left: 1.2em;
 }
 
-.head-links:hover {
+/* .head-links:hover {
     border-bottom: solid 0.08em;
     padding-bottom: 0.05em;
+} */
+
+.head-links:hover::after {
+    content: "";
+    display: block;
+    margin: auto;
+    width: auto;
+    border-bottom: solid 1.5px;
 }
 
 .title {
