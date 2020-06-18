@@ -115,3 +115,9 @@ body {
 .active:after {
     content: "\2796"; /* Unicode character for "minus" sign (-) */
 }
+
+@media (max-width: 600px) {
+    .head-links {
+        font-size: 1rem;
+    }
+}
