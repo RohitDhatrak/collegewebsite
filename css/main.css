@@ -75,8 +75,16 @@ body {
     touch-action: manipulation;
 }
 
-button:hover {
+.button:hover {
     background-color: #d4afe4;
+}
+
+.button:focus {
+    background-color: #d4afe4;
+}
+
+.button:focus {
+    outline: none;
 }
 
 .button:last-child {

@@ -109,6 +109,14 @@ body {
     background-color: #bd99cc;
 }
 
+.accordion:focus {
+    background-color: #bd99cc;
+}
+
+.accordion:focus {
+    outline: none; /*added focus element above to retain the accessibility  */
+}
+
 .panel {
     width: 80%;
     margin-left: 2em;
