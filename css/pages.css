@@ -18,7 +18,7 @@ body {
 }
 
 .main-section {
-    height: 89.5%;
+    height: 42em;
     width: 100%;
     border-radius: 2em 2em 0em 0em;
     background-color: #faf0eb;
@@ -32,7 +32,7 @@ body {
 }
 
 .footer {
-    height: 3.5%;
+    height: 1.2em;
     background-color: #faf0eb;
     font-size: 1.1rem;
     color: #ae68cc;
@@ -152,5 +152,9 @@ body {
 
     .header {
         padding-top: 1em;
+    }
+
+    .ica {
+        margin-top: 2em !important;
     }
 }
