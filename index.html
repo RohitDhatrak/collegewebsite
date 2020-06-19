@@ -16,7 +16,6 @@
             href="https://fonts.googleapis.com/css2?family=Sriracha&display=swap"
             rel="stylesheet"
         />
-        <script src="./javascript/quoteApi.js"></script>
         <!-- Global site tag (gtag.js) - Google Analytics -->
         <script
             async
@@ -35,7 +34,7 @@
 
     <body>
         <header class="header">
-            <blockquote>
+            <blockquote class="quote">
                 "Make visible what, without you, might perhaps never have been
                 seen.” - Robert Bresson
             </blockquote>
@@ -98,5 +97,21 @@
                 >Rohit Dhatrak</a
             >
         </footer>
+        <script>
+            const url =
+                "https://dry-refuge-90427.herokuapp.com/https://quotes.rest/qod?category=inspire";
+
+            async function getQuote() {
+                const response = await fetch(url);
+                const data = await response.json();
+                const disp = document.querySelector(".quote");
+                disp.innerText =
+                    data.contents.quotes[0].quote +
+                    " - " +
+                    data.contents.quotes[0].author;
+            }
+
+            getQuote();
+        </script>
     </body>
 </html>

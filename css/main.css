@@ -12,12 +12,17 @@ body {
     height: 35%;
     border-radius: 0em 0em 2em 2em;
     background-color: #e8d0f2;
-    font-size: 2rem;
+    font-size: auto;
     font-family: "Sriracha", cursive;
     color: #786680;
     display: flex;
     align-items: center;
     justify-content: center;
+    padding-bottom: 1em;
+}
+
+.quote {
+    margin: none;
 }
 
 .main-section {
@@ -127,10 +132,6 @@ body {
         height: 2.5em;
     }
 
-    .header {
-        font-size: 1.5rem;
-    }
-
     .footer {
         font-size: 1rem;
         margin-top: 4em;
@@ -148,10 +149,6 @@ body {
 
     .icons {
         height: 2.5em;
-    }
-
-    .header {
-        font-size: 1.2rem;
     }
 
     .footer {
@@ -172,10 +169,6 @@ body {
         height: 2.5em;
     }
 
-    .header {
-        font-size: 1.6rem;
-    }
-
     .footer {
         font-size: 1rem;
     }
@@ -192,10 +185,6 @@ body {
 
     .icons {
         height: 2.5em;
-    }
-
-    .header {
-        font-size: 1.7rem;
     }
 
     .footer {
