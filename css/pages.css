@@ -155,7 +155,7 @@ body {
     display: block;
 }
 
-@media (max-width: 800px) {
+@media (max-width: 900px) {
     .head-links {
         display: none;
     }
