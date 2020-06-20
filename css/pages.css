@@ -35,7 +35,7 @@ body {
     height: 3.5%;
     background-color: #faf0eb;
     font-size: 1.1rem;
-    color: #ae68cc;
+    color: #786680;
     display: flex;
     justify-content: center;
     font-weight: bold;
@@ -47,7 +47,7 @@ body {
     text-decoration: none;
     border-bottom: dotted 0.1em;
     height: 1.08em;
-    color: #ae68cc;
+    color: #786680;
 }
 
 .credits:hover {
