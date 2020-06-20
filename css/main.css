@@ -94,14 +94,6 @@ body {
     background-color: #d4afe4;
 }
 
-.button:focus {
-    background-color: #d4afe4;
-}
-
-.button:focus {
-    outline: none;
-}
-
 .button:last-child {
     margin-left: 0.8em;
 }
