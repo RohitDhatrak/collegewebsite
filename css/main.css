@@ -147,7 +147,7 @@ body {
 }
 
 /* standard phones */
-@media (min-width: 376px) and (max-width: 675px) {
+@media (min-width: 376px) and (max-width: 730px) {
     .button {
         font-size: 1.3rem;
         width: 6.3em;
