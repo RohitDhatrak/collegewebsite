@@ -17,12 +17,10 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
-    padding-bottom: 1em;
 }
 
 .quote {
     margin: none;
-    font-size: 1.5rem;
 }
 
 .main-section {

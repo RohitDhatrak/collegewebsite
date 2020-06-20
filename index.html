@@ -33,11 +33,8 @@
     </head>
 
     <body>
-        <header class="header">
-            <blockquote id="quote" class="quote">
-                "Make visible what, without you, might perhaps never have been
-                seen.” - Robert Bresson
-            </blockquote>
+        <header id="header" class="header">
+            <blockquote id="quote" class="quote"></blockquote>
         </header>
         <main class="main-section">
             <section class="buttons">
@@ -99,22 +96,22 @@
         </footer>
         <script>
             const url =
-                "https://dry-refuge-90427.herokuapp.com/https://quotes.rest/qod?category=inspire";
+                "https://dry-refuge-90427.herokuapp.com/https://api.quotable.io/random?maxLength=130";
 
             async function getQuote() {
                 const response = await fetch(url);
                 const data = await response.json();
                 const disp = document.querySelector(".quote");
-                disp.innerText =
-                    data.contents.quotes[0].quote +
-                    " - " +
-                    data.contents.quotes[0].author;
+                disp.innerText = `"` + data.content + `"` + " ~ " + data.author;
+
                 let font = document.getElementById("quote");
-                if (data.contents.quotes[0].length <= 50) {
-                    font.style.fontSize = "2rem";
+                if (data.length <= 60) {
+                    font.style.fontSize = "1.7rem";
+                } else {
+                    font.style.fontSize = "1.5rem";
                 }
 
-                console.log(data.contents.quotes[0].length);
+                console.log(data.length);
             }
 
             getQuote();
