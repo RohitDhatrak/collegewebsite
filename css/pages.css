@@ -120,15 +120,15 @@ body {
 }
 
 .accordion:after {
-    content: "\02795"; /* Unicode character for "plus" sign (+) */
-    font-size: 0.8em;
+    content: "+";
+    font-size: 1.4rem;
     color: #786680;
     float: right;
     margin-left: 0.4em;
 }
 
 .active:after {
-    content: "\2796"; /* Unicode character for "minus" sign (-) */
+    content: "-";
 }
 
 .ica {
