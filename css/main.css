@@ -20,7 +20,8 @@ body {
 
 .quote {
     margin: none;
-    font-family: "Sriracha", cursive;
+    font-weight: bold;
+    font-style: italic;
 }
 
 .main-section {

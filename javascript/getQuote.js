@@ -9,9 +9,9 @@ async function getQuote() {
 
     let font = document.getElementById("quote");
     if (data.length <= 50) {
-        font.style.fontSize = "1.7rem";
+        font.style.fontSize = "2rem";
     } else {
-        font.style.fontSize = "1.5rem";
+        font.style.fontSize = "1.7rem";
     }
 }
 
