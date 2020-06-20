@@ -34,7 +34,7 @@
 
     <body>
         <header class="header">
-            <blockquote class="quote">
+            <blockquote id="quote" class="quote">
                 "Make visible what, without you, might perhaps never have been
                 seen.” - Robert Bresson
             </blockquote>
@@ -109,6 +109,12 @@
                     data.contents.quotes[0].quote +
                     " - " +
                     data.contents.quotes[0].author;
+                let font = document.getElementById("quote");
+                if (data.contents.quotes[0].length <= 50) {
+                    font.style.fontSize = "2rem";
+                }
+
+                console.log(data.contents.quotes[0].length);
             }
 
             getQuote();
