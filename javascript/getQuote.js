@@ -13,8 +13,6 @@ async function getQuote() {
     } else {
         font.style.fontSize = "1.5rem";
     }
-
-    console.log(data.length);
 }
 
 getQuote();
