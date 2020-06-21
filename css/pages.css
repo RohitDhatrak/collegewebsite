@@ -17,43 +17,6 @@ body {
     align-items: center;
 }
 
-.main-section {
-    height: 89.5%;
-    width: 100%;
-    border-radius: 2em 2em 0em 0em;
-    background-color: #faf0eb;
-    padding-top: 1em;
-}
-
-.main-flex {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-}
-
-.footer {
-    height: 3.5%;
-    background-color: #faf0eb;
-    font-size: 1.1rem;
-    color: #786680;
-    display: flex;
-    justify-content: center;
-    font-weight: bold;
-    margin-top: 1em;
-    margin-bottom: 0.3em;
-}
-
-.credits {
-    text-decoration: none;
-    border-bottom: dotted 0.1em;
-    height: 1.08em;
-    color: #786680;
-}
-
-.credits:hover {
-    border-bottom: none;
-}
-
 .head-links {
     text-decoration: none;
     color: #786680;
@@ -84,6 +47,20 @@ body {
     text-align: center;
 }
 
+.main-section {
+    height: 89.5%;
+    width: 100%;
+    border-radius: 2em 2em 0em 0em;
+    background-color: #faf0eb;
+    padding-top: 1em;
+}
+
+.main-flex {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
 .accordion {
     background-color: #e2bff1;
     border: none;
@@ -100,23 +77,9 @@ body {
     touch-action: manipulation;
 }
 
-.accordion-text {
-    margin-top: 0em;
-}
-
 .active,
 .accordion:hover {
     background-color: #bd99cc;
-}
-
-.panel {
-    width: 80%;
-    margin-left: 2em;
-    background-color: #faf0eb;
-    overflow: hidden;
-    max-height: 0;
-    transition: max-height 0.2s ease-out;
-    color: #786680;
 }
 
 .accordion:after {
@@ -131,13 +94,18 @@ body {
     content: "-";
 }
 
-.ica {
-    height: 35em;
-    width: 85%;
-    border-radius: 1em;
-    margin: auto;
-    background-color: #e2bff1;
-    padding: 1em;
+.panel {
+    width: 80%;
+    margin-left: 2em;
+    background-color: #faf0eb;
+    overflow: hidden;
+    max-height: 0;
+    transition: max-height 0.2s ease-out;
+    color: #786680;
+}
+
+.panel-text {
+    margin-top: 0em;
 }
 
 .text {
@@ -145,6 +113,39 @@ body {
     color: #786680;
     font-size: 1.1rem;
     display: block;
+}
+
+.footer {
+    height: 3.5%;
+    background-color: #faf0eb;
+    font-size: 1.1rem;
+    color: #786680;
+    display: flex;
+    justify-content: center;
+    font-weight: bold;
+    margin-top: 1em;
+    margin-bottom: 0.3em;
+}
+
+.credits {
+    text-decoration: none;
+    border-bottom: dotted 0.1em;
+    height: 1.08em;
+    color: #786680;
+}
+
+.credits:hover {
+    border-bottom: none;
+}
+
+/* applied only to ica page */
+.ica {
+    height: 35em;
+    width: 85%;
+    border-radius: 1em;
+    margin: auto;
+    background-color: #e2bff1;
+    padding: 1em;
 }
 
 @media (max-width: 900px) {
