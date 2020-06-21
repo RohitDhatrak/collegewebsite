@@ -55,6 +55,8 @@ body {
     cursor: pointer;
     box-shadow: 0px 2px 25px 0px rgba(110, 130, 208, 0.18);
     touch-action: manipulation;
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+    -webkit-tap-highlight-color: transparent;
 }
 
 .button:hover {

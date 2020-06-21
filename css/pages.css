@@ -75,6 +75,8 @@ body {
     transition: 0.4s;
     color: #423b46;
     touch-action: manipulation;
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+    -webkit-tap-highlight-color: transparent;
 }
 
 .active,
