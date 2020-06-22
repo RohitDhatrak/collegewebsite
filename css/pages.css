@@ -1,4 +1,10 @@
-* {
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+}
+
+html {
     box-sizing: border-box;
 }
 
@@ -83,7 +89,7 @@ body {
     background-color: #bd99cc;
 }
 
-.accordion:after {
+.accordion::after {
     content: "+";
     font-size: 1.4rem;
     color: #786680;
@@ -91,7 +97,7 @@ body {
     margin-left: 0.4em;
 }
 
-.active:after {
+.active::after {
     content: "-";
 }
 
