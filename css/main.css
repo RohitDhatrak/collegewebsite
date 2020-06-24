@@ -63,7 +63,7 @@ body {
     -webkit-tap-highlight-color: transparent;
 }
 
-.button:hover {
+.button:hover, .button:focus, .button:active{
     background-color: #d4afe4;
 }
 
@@ -100,7 +100,7 @@ body {
     color: #786680;
 }
 
-.credits:hover {
+.credits:hover, .credits:focus, .credits:active {
     text-decoration: none;
     border-bottom: none;
 }
