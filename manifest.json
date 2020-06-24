@@ -1,0 +1,17 @@
+{
+    "name": "Btech EXTC Portal",
+    "short_name": "Portal",
+    "theme_color": "#e2bff1",
+    "background_color": "#faf0eb",
+    "display": "standalone",
+    "scope": "/",
+    "start_url": "https://btechextc.netlify.app/",
+    "description": "A progressive web app for Btech EXTC 2022 batch of MPSTME engineering college",
+    "orientation": "any",
+    "icons": [
+        {
+            "src": "https://github.com/RohitDhatrak/collegewebsite/tree/master/images/logo.svg",
+            "sizes": "1024x1024"
+        }
+    ]
+}
