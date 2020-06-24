@@ -8,12 +8,12 @@ var preLoad = function () {
         console.log("caching index and important routes");
         return cache.addAll([
             "/index.html",
+            "/css/main.css",
             "/ica.html",
             "/syllabus.html",
-            "/learningresources.html",
-            "/extraresources.html",
-            "/css",
-            "/javascript",
+            "/css/pages.css",
+            "/javascript/accordion.js",
+            "/javascript/outline.js",
             "/offline.html",
         ]);
     });
