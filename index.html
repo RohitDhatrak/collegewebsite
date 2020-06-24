@@ -28,7 +28,7 @@
 
             getQuote();
         </script>
-        <link rel="stylesheet" href="./manifest.json" />
+        <link rel="manifest" href="./manifest.json" />
         <link rel="stylesheet" href="./css/main.css" />
         <!-- Global site tag (gtag.js) - Google Analytics -->
         <script
@@ -112,11 +112,14 @@
     </body>
     <script>
         if (!navigator.serviceWorker.controller) {
-            navigator.serviceWorker.register("/sw.js").then(function (reg) {
-                console.log(
-                    "Service worker has been registered for scope: " + reg.scope
-                );
-            });
+            navigator.serviceWorker
+                .register("./javascript/sw.js")
+                .then(function (reg) {
+                    console.log(
+                        "Service worker has been registered for scope: " +
+                            reg.scope
+                    );
+                });
         }
     </script>
 </html>
