@@ -10,7 +10,7 @@
     "orientation": "any",
     "icons": [
         {
-            "src": "https://github.com/RohitDhatrak/collegewebsite/tree/master/images/icon.png",
+            "src": "./images/logo.png",
             "sizes": "512x512",
             "type": "image/png",
             "purpose": "maskable"
