@@ -2,7 +2,7 @@
     "name": "Btech EXTC Portal",
     "short_name": "Portal",
     "theme_color": "#e8d0f2",
-    "background_color": "#faf0eb",
+    "background_color": "#ffffff",
     "display": "standalone",
     "scope": "/",
     "start_url": "https://btechextc.netlify.app/",
