@@ -1,7 +1,7 @@
 {
     "name": "Btech EXTC Portal",
     "short_name": "Portal",
-    "theme_color": "#e2bff1",
+    "theme_color": "#e8d0f2",
     "background_color": "#faf0eb",
     "display": "standalone",
     "scope": "/",
