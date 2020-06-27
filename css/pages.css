@@ -141,7 +141,7 @@ body {
     color: #786680;
 }
 
-.credits:hover, .credits:focus, .credits:active{
+.credits:hover, .credits:focus {
     border-bottom: none;
 }
 
