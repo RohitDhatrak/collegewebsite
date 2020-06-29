@@ -22,12 +22,22 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
+    flex-wrap: wrap;
 }
 
-.quote {
+.quote,
+.author {
     font-weight: bold;
     font-style: italic;
     font-family: "Times New Roman", Times, serif;
+    padding-left: 1.3em;
+    padding-right: 1em;
+    margin: 0em;
+}
+
+.author {
+    font-size: 1.5rem;
+    padding: 0em;
 }
 
 .main-section {

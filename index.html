@@ -35,7 +35,8 @@
 
     <body>
         <header class="header">
-            <blockquote id="quote" class="quote"></blockquote>
+            <p id="quote" class="quote"></p>
+            <p class="author"></p>
         </header>
         <main class="main-section">
             <section class="buttons">
@@ -104,8 +105,9 @@
             const response = await fetch(url);
             const data = await response.json();
             const disp = document.querySelector(".quote");
-            disp.innerText = `"` + data.content + `"` + " ~ " + data.author;
-
+            const disp2 = document.querySelector(".author");
+            disp.innerHTML = `"` + data.content + `"`;
+            disp2.innerHTML = " ~ " + data.author;
             let font = document.getElementById("quote");
             if (data.length <= 50) {
                 font.style.fontSize = "2rem";
