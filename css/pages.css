@@ -113,7 +113,7 @@ body {
     overflow: hidden;
     max-height: 0;
     transition: max-height 0.2s ease-out;
-    color: #37313a;
+    /* color: #37313a; */
 }
 
 .panel-text {
@@ -122,8 +122,8 @@ body {
 
 .text {
     text-decoration: none;
-    color: #786680;
-    font-size: 1.2rem;
+    color: #423b46;
+    font-size: 1.1rem;
     display: block;
 }
 
