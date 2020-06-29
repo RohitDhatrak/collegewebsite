@@ -12,6 +12,8 @@ html {
 body {
     margin: 0vh;
     background-color: #faf0eb;
+    --clr-bg: #faf0eb;
+    --clr-primary: black;
 }
 
 .header {
@@ -30,7 +32,6 @@ body {
 .author {
     font-weight: bold;
     font-style: italic;
-    font-family: "Times New Roman", Times, serif;
     padding-left: 1.3em;
     padding-right: 1em;
     margin: 0em;
@@ -75,7 +76,6 @@ body {
 }
 
 .button:hover,
-.button:focus,
 .button:active {
     background-color: #bd99cc;
 }
@@ -114,8 +114,7 @@ body {
     padding-bottom: 1.05em;
 }
 
-.credits:hover,
-.credits:focus {
+.credits:hover {
     text-decoration: none;
     border-bottom: none;
 }

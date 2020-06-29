@@ -23,6 +23,8 @@
     });
 
     add_event_listener("keydown", function () {
-        set_css("");
+        set_css(
+            ":focus{box-shadow: 0 0 0 3px var(--clr-bg), 0 0 0 5px var(--clr-primary); outline: none; transition: none;}::-moz-focus-inner{border:0;}"
+        );
     });
 })(document);
