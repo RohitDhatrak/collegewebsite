@@ -2,6 +2,7 @@
 *::before,
 *::after {
     box-sizing: inherit;
+    font-family: "Times New Roman", Times, serif;
 }
 
 html {
@@ -76,7 +77,7 @@ body {
 .button:hover,
 .button:focus,
 .button:active {
-    background-color: #d4afe4;
+    background-color: #bd99cc;
 }
 
 .button:last-child {

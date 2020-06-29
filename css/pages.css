@@ -2,6 +2,7 @@
 *::before,
 *::after {
     box-sizing: inherit;
+    font-family: "Times New Roman", Times, serif;
 }
 
 html {
@@ -11,6 +12,7 @@ html {
 body {
     margin: 0vh;
     background-color: #faf0eb;
+    font-family: "Times New Roman", Times, serif;
 }
 
 .header {
@@ -78,7 +80,7 @@ body {
     padding: 1.35em;
     border-radius: 1em;
     margin-bottom: 1em;
-    font-size: 1.2rem;
+    font-size: 1.3rem;
     box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.18);
     transition: 0.4s;
     color: #423b46;
@@ -95,7 +97,7 @@ body {
 .accordion::after {
     content: "+";
     font-size: 1.4rem;
-    color: #786680;
+    color: #423b46;
     float: right;
     margin-left: 0.4em;
 }
@@ -111,7 +113,7 @@ body {
     overflow: hidden;
     max-height: 0;
     transition: max-height 0.2s ease-out;
-    color: #786680;
+    color: #37313a;
 }
 
 .panel-text {
@@ -121,7 +123,7 @@ body {
 .text {
     text-decoration: none;
     color: #786680;
-    font-size: 1.1rem;
+    font-size: 1.2rem;
     display: block;
 }
 
