@@ -15,6 +15,51 @@
             href="./images/logo.svg"
         />
         <style>
+            .flex-container {
+                display: flex;
+                justify-content: center;
+            }
+            button {
+                position: relative;
+            }
+            button::before {
+                content: "Supports Google & Apple calendar";
+                display: block;
+                position: absolute;
+                padding: 0.2em 0.5em;
+                background-color: #faf0eb;
+                color: #423b46;
+                opacity: 0.8;
+                border-radius: 0.5em;
+                bottom: 0;
+                right: 0;
+                font-size: 1rem;
+                transform: scale(0);
+                transition: transform ease-out 150ms, bottom ease-out 150ms;
+            }
+            button:hover::before,
+            button:focus::before,
+            button:active::before {
+                transform: scale(1);
+                bottom: 110%;
+                right: -20%;
+                white-space: nowrap;
+            }
+            .cal-button {
+                text-decoration: none;
+                padding: 0.65em 1em;
+                background-color: #faf0eb;
+                font-size: 1rem;
+                color: #423b46;
+                border: none;
+                margin-top: 1em;
+                border-radius: 1em;
+            }
+            .cal-button:hover,
+            .cal-button:active {
+                background-color: #e7e3df;
+                cursor: pointer;
+            }
             .ica {
                 height: 35em;
                 width: 85%;
@@ -22,33 +67,6 @@
                 margin: auto;
                 background-color: #e2bff1;
                 padding: 1em;
-            }
-            .ica-icon{
-                float: right;
-            }
-            a[data-tool-tip] {
-                position: relative;
-            }
-            a[data-tool-tip]::before {
-                content: 'Click to add event to Google Cal';
-                display: block;
-                position: absolute;
-                padding: 0.2em 0.5em;
-                background-color: #faf0eb;
-                color: #423b46;
-                white-space: nowrap;
-                border-radius: 0.5em;
-                bottom: 1;
-                right: 100%;
-                font-size: 1rem;
-                transform: scale(0);
-                transition: transform ease-out 150ms, bottom ease-out 150ms;
-
-            }
-            a[data-tool-tip]:hover:before {
-                transform: scale(1);
-                bottom: 1;
-                right: 100%;
             }
         </style>
         <link rel="apple-touch-icon" href="./images/icon.png" />
@@ -84,12 +102,11 @@
         <main class="main-section">
             <h1 class="title">ICA</h1>
             <div class="ica">
-                <a class="ica-icon" data-tool-tip="a tool tip">
-                    <img border="0" src="./images/google_cal.png" height="40em"></a>
-                </a>
-                <a style="margin-top: 1.75em;" class="text"
-                href="./myevents.ics">Sem 5 starts</a>
-                <a class="text" href=""></a>
+                <div class="flex-container">
+                    <button onclick="location.href='';" class="cal-button">
+                        <a href="./myevents.ics"></a> Add to your Calendar
+                    </button>
+                </div>
             </div>
         </main>
         <footer class="footer">
