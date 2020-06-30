@@ -26,6 +26,30 @@
             .ica-icon{
                 float: right;
             }
+            a[data-tool-tip] {
+                position: relative;
+            }
+            a[data-tool-tip]::before {
+                content: 'Click to add to Google calendar';
+                display: block;
+                position: absolute;
+                padding: 0.2em 0.5em;
+                background-color: #faf0eb;
+                color: #423b46;
+                white-space: nowrap;
+                border-radius: 0.5em;
+                bottom: 1;
+                right: 100%;
+                font-size: 1rem;
+                transform: scale(0);
+                transition: transform ease-out 150ms, bottom ease-out 150ms;
+
+            }
+            a[data-tool-tip]:hover:before {
+                transform: scale(1);
+                bottom: 1;
+                right: 100%;
+            }
         </style>
         <link rel="apple-touch-icon" href="./images/icon.png" />
         <link rel="stylesheet" href="./css/pages.css" />
@@ -60,8 +84,8 @@
         <main class="main-section">
             <h1 class="title">ICA</h1>
             <div class="ica">
-                <a class="ica-icon">
-                    <img border="0" src="https://www.google.com/calendar/images/ext/gc_button1_en.gif"></a>
+                <a class="ica-icon" data-tool-tip="a tool tip">
+                    <img border="0" src="./images/google_cal.png" height="40em"></a>
                 </a>
                 <a style="margin-top: 1.75em;" class="text">
                     2 June (Fri) - Digital Comm Assignment Submission
