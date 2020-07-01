@@ -109,7 +109,8 @@ body {
 
 .panel {
     width: 80%;
-    margin-left: 2em;
+    margin-left: 3em;
+    margin-right: 3em;
     margin-bottom: 0.4em;
     background-color: #faf0eb;
     overflow: hidden;
