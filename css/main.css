@@ -133,6 +133,9 @@ body {
     .icons {
         margin-bottom: 0em !important;
     }
+    .button {
+        padding-bottom: 0.05em !important;
+    }
 }
 
 /* small phones */
