@@ -116,6 +116,8 @@ body {
     overflow: hidden;
     max-height: 0;
     transition: max-height 0.2s ease-out;
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+    -webkit-tap-highlight-color: transparent;
 }
 
 .panel-text {
@@ -128,6 +130,12 @@ body {
     font-size: 1.05rem;
     display: block;
     margin-bottom: 0.5em;
+}
+
+.text:hover,
+.text:focus,
+.text:active {
+    color: #807a81;
 }
 
 .footer {
