@@ -130,6 +130,9 @@ body {
     .footer {
         margin-top: 2em;
     }
+    .icons {
+        margin-bottom: 0em !important;
+    }
 }
 
 /* small phones */
