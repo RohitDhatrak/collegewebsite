@@ -10,10 +10,16 @@
     "orientation": "any",
     "icons": [
         {
-            "src": "./images/icon.png",
+            "purpose": "maskable",
+            "src": "./images/icon512.png",
             "sizes": "512x512",
-            "type": "image/png",
-            "purpose": "maskable"
+            "type": "image/png"
+        },
+        {
+            "purpose": "maskable",
+            "src": "./images/icon192.png",
+            "sizes": "192x192",
+            "type": "image/png"
         }
     ]
 }
