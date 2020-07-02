@@ -134,6 +134,8 @@ body {
         margin-bottom: 0em !important;
     }
     .button {
+        width: 12em;
+        height: 5em;
         padding-bottom: 0.05em !important;
     }
 }
