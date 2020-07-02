@@ -197,7 +197,7 @@ body {
 }
 
 /* longer phones */
-@media (min-height: 800px) and (max-height: 896px) {
+@media (min-height: 800px) and (max-height: 896px) and (max-width: 500px) {
     .button {
         font-size: 1.3rem;
         width: 6.3em;
