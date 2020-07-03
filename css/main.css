@@ -62,7 +62,6 @@ body {
 }
 
 .button {
-    margin-top: 0.8em;
     border-radius: 2em;
     font-size: 1.7rem;
     width: 12em;
@@ -84,7 +83,7 @@ body {
 }
 
 .button:last-child {
-    margin-left: 0.8em;
+    margin-left: 1.5em;
 }
 
 .button1,
@@ -100,11 +99,11 @@ body {
 
 .qa-button {
     background-color: #e2bff1;
-    padding: 1.5em;
+    padding: 0.7em;
     border: 0em;
-    border-radius: 6em;
-    font-size: 0.7rem;
-    margin-top: 1em;
+    border-radius: 1em;
+    font-size: 1rem;
+    box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.18);
 }
 
 .qa-button:hover {
