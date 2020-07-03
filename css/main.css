@@ -120,7 +120,7 @@ body {
 }
 
 /* for laptops and large screens */
-@media (min-width: 800px) and (min-height: 600px) {
+@media (min-width: 731px) and (min-height: 600px) {
     body {
         height: 90vh;
     }
@@ -220,7 +220,7 @@ body {
 }
 
 /* iphone xr */
-@media only screen and (min-device-width: 414px) and (min-device-height: 896px) and (-webkit-device-pixel-ratio: 2) and (orientation: portrait) {
+@media only screen and (min-device-width: 414px) and (min-device-height: 896px) and (max-device-width: 500px) and (-webkit-device-pixel-ratio: 2) and (orientation: portrait) {
     .button {
         width: 6.5em;
         height: 6.3em;
