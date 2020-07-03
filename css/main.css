@@ -84,7 +84,7 @@ body {
 }
 
 .button:last-child {
-    margin-left: 0.8em;
+    margin-left: 1.5em;
 }
 
 .button1,
@@ -102,7 +102,8 @@ body {
     background-color: #e2bff1;
     padding: 1.5em;
     border: 0em;
-    border-radius: 5em;
+    border-radius: 6em;
+    font-size: 0.7rem;
 }
 
 .qa-button:hover {
