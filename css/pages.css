@@ -92,7 +92,7 @@ body {
 
 .active,
 .accordion:hover {
-    background-color: #bd99cc;
+    background-color: #cca5dd;
 }
 
 .accordion::after {
