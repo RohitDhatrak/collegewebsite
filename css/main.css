@@ -98,11 +98,19 @@ body {
     justify-content: center;
 }
 
-.cbutton {
+.qa-button {
     background-color: #e2bff1;
     padding: 1.5em;
     border: 0em;
     border-radius: 5em;
+}
+
+.qa-button:hover {
+    background-color: #d9b4e9;
+}
+
+.qa-button:active {
+    background-color: #cca5dd;
 }
 
 .icons {
