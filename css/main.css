@@ -83,7 +83,7 @@ body {
 }
 
 .button:last-child {
-    margin-left: 1.5em;
+    margin-left: 1.7em;
 }
 
 .button1,
@@ -99,9 +99,9 @@ body {
 
 .qa-button {
     background-color: #e2bff1;
-    padding: 0.7em;
+    padding: 0.5em;
     border: 0em;
-    border-radius: 1em;
+    border-radius: 0.8em;
     font-size: 1rem;
     box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.18);
 }
