@@ -158,27 +158,27 @@ body {
     }
 }
 
+@media (min-width: 360px) and (max-width: 390px) and (min-height: 640px) {
+    .footer {
+        margin-top: 2em;
+    }
+    .button1,
+    .button2 {
+        margin-top: 2em;
+    }
+}
+
 /* old(short) phones */
 @media (min-width: 320px) and (max-width: 379px) and (max-height: 640px) {
     .button {
         font-size: 1.1rem;
     }
     .footer {
-        font-size: 1rem;
+        font-size: 1.05rem;
+        margin-top: 2em;
     }
-}
-
-/* longer phones */
-/* @media (min-height: 800px) and (max-height: 896px) and (max-width: 500px) {
     .button1,
     .button2 {
-        margin-top: 5em;
+        margin-top: 3em;
     }
-} */
-
-/* iphone xr
-@media only screen and (min-device-width: 414px) and (min-device-height: 896px) and (max-device-width: 500px) and (-webkit-device-pixel-ratio: 2) and (orientation: portrait) {
-    .footer {
-        margin-top: 5em;
-    }
-} */
+}
