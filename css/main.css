@@ -158,9 +158,10 @@ body {
     }
 }
 
+/* short phones */
 @media (min-width: 360px) and (max-width: 390px) and (min-height: 640px) {
     .footer {
-        margin-top: 2em;
+        margin-top: 1.5em;
     }
     .button1,
     .button2 {
@@ -168,7 +169,7 @@ body {
     }
 }
 
-/* old(short) phones */
+/* very short phones */
 @media (min-width: 320px) and (max-width: 379px) and (max-height: 640px) {
     .button {
         font-size: 1.1rem;
