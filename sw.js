@@ -15,6 +15,8 @@ var preLoad = function () {
             "/javascript/accordion.js",
             "/javascript/outline.js",
             "/offline.html",
+            "/download.html",
+            "/css/download.css",
         ]);
     });
 };
