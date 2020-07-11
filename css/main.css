@@ -128,7 +128,7 @@ body {
     display: flex;
     justify-content: center;
     font-weight: bold;
-    margin-top: 4em;
+    margin-top: 2em;
 }
 
 .credits {
@@ -142,6 +142,22 @@ body {
 .credits:hover {
     text-decoration: none;
     border-bottom: none;
+}
+
+.download-icon {
+    height: 1.8em;
+    display: block;
+    margin: auto;
+    margin-top: 0.5em;
+    margin-bottom: 0.1em;
+}
+
+.download-icon:hover {
+    height: 1.7em;
+}
+
+.download-icon:active {
+    height: 2em;
 }
 
 /* for laptops and large screens */
