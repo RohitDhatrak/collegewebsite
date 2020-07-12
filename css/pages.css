@@ -77,6 +77,7 @@ body {
     background-color: #e2bff1;
     border: none;
     width: 80%;
+    max-width: 1000px;
     cursor: pointer;
     text-align: left;
     padding: 1.35em;
@@ -109,7 +110,8 @@ body {
 
 .panel {
     width: 80%;
-    margin-left: 3.5em;
+    max-width: 1000px;
+    margin-left: 6em;
     margin-right: 3em;
     margin-bottom: 0.4em;
     background-color: #faf0eb;
@@ -162,6 +164,22 @@ body {
     border-bottom: none;
 }
 
+.download-icon {
+    height: 1.8em;
+    display: block;
+    margin: auto;
+    margin-top: 0.5em;
+    margin-bottom: 0.1em;
+}
+
+.download-icon:hover {
+    height: 1.7em;
+}
+
+.download-icon:active {
+    height: 2em;
+}
+
 @media (max-width: 700px) {
     .head-links {
         display: none;
@@ -188,5 +206,9 @@ body {
 
     .ica {
         margin-top: 2em !important;
+    }
+
+    .panel {
+        margin-left: 3.5em;
     }
 }
