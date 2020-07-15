@@ -126,7 +126,8 @@ body {
     margin-top: 0em;
 }
 
-.text {
+.text,
+.ica-text {
     text-decoration: none;
     color: #423b46;
     font-size: 1.05rem;
