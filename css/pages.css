@@ -141,6 +141,15 @@ body {
     color: #807a81;
 }
 
+.list-header,
+.list-item {
+    text-decoration: none;
+    color: #423b46;
+    font-size: 1.05rem;
+    padding-left: 0em;
+    margin-top: 0em;
+}
+
 .footer {
     /* height: 3.5%; */
     background-color: #faf0eb;
