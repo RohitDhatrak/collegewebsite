@@ -11,9 +11,9 @@ html {
 
 body {
     margin: 0vh;
-    background-color: #faf0eb;
+    background-color: white;
     font-family: "Times New Roman", Times, serif;
-    --clr-bg: #faf0eb;
+    --clr-bg: white;
     --clr-primary: black;
 }
 
@@ -29,7 +29,7 @@ body {
 
 .head-links {
     text-decoration: none;
-    color: #786680;
+    color: #423b46;
     font-size: 1.8rem;
     margin-left: 1.2em;
     --clr-bg: #e8d0f2;
@@ -63,7 +63,7 @@ body {
     /* height: 89.5%; */
     width: 100%;
     border-radius: 2em 2em 0em 0em;
-    background-color: #faf0eb;
+    background-color: white;
     padding-top: 1em;
 }
 
@@ -86,7 +86,7 @@ body {
     font-size: 1.2rem;
     box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.18);
     transition: 0.4s;
-    color: #423b46;
+    color: black;
     -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
     -webkit-tap-highlight-color: transparent;
 }
@@ -99,7 +99,7 @@ body {
 .accordion::after {
     content: "+";
     font-size: 1.4rem;
-    color: #423b46;
+    color: black;
     float: right;
     margin-left: 0.4em;
 }
@@ -114,7 +114,7 @@ body {
     margin-left: 6em;
     margin-right: 3em;
     margin-bottom: 0.4em;
-    background-color: #faf0eb;
+    background-color: white;
     overflow: hidden;
     max-height: 0;
     transition: max-height 0.2s ease-out;
@@ -129,7 +129,7 @@ body {
 .text,
 .ica-text {
     text-decoration: none;
-    color: #423b46;
+    color: black;
     font-size: 1.05rem;
     display: block;
     margin-bottom: 0.5em;
@@ -144,7 +144,7 @@ body {
 .list-header,
 .list-item {
     text-decoration: none;
-    color: #423b46;
+    color: black;
     font-size: 1.05rem;
     padding-left: 0em;
     margin-top: 0em;
@@ -152,7 +152,7 @@ body {
 
 .footer {
     /* height: 3.5%; */
-    background-color: #faf0eb;
+    background-color: white;
     font-size: 1.1rem;
     color: #786680;
     display: flex;

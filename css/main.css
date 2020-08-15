@@ -11,8 +11,8 @@ html {
 
 body {
     margin: 0vh;
-    background-color: #faf0eb;
-    --clr-bg: #faf0eb;
+    background-color: white;
+    --clr-bg: white;
     --clr-primary: black;
 }
 
@@ -46,7 +46,7 @@ body {
     /* height: 65%; */
     width: 100%;
     border-radius: 2em 2em 0em 0em;
-    background-color: #faf0eb;
+    background-color: white;
 }
 
 .row1 {
@@ -122,7 +122,7 @@ body {
 
 .footer {
     /* height: 3.5%; */
-    background-color: #faf0eb;
+    background-color: white;
     font-size: 1.1rem;
     color: #786680;
     display: flex;

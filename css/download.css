@@ -11,8 +11,8 @@ html {
 
 body {
     margin: 0vh;
-    background-color: #faf0eb;
-    --clr-bg: #faf0eb;
+    background-color: white;
+    --clr-bg: white;
     --clr-primary: black;
     height: 100em;
 }
