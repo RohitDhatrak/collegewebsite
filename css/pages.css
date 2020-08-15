@@ -25,14 +25,11 @@ body {
     background-color: #e8d0f2;
     display: flex;
     align-items: center;
+    padding-top: 1em;
 }
 
 .head-links {
-    text-decoration: none;
-    color: #423b46;
-    font-size: 1.8rem;
-    margin-left: 1.2em;
-    --clr-bg: #e8d0f2;
+    display: none;
 }
 
 .head-links:hover,
@@ -41,26 +38,18 @@ body {
     padding-bottom: 0.05em;
 }
 
-/* .head-links:hover::after {
-    content: "";
-    display: block;
-    margin: auto;
-    width: auto;
-    border-bottom: solid 2px;
-} */
-
-.mobile-header {
+.title {
     display: none;
 }
 
-.title {
-    font-size: 2.5rem;
+.mobile-header {
+    display: block;
+    margin: auto;
+    font-size: 2rem;
     color: #786680;
-    text-align: center;
 }
 
 .main-section {
-    /* height: 89.5%; */
     width: 100%;
     border-radius: 2em 2em 0em 0em;
     background-color: white;
@@ -108,10 +97,14 @@ body {
     content: "-";
 }
 
+.accordion:first-child {
+    margin-top: 2em;
+}
+
 .panel {
     width: 80%;
     max-width: 1000px;
-    margin-left: 6em;
+    margin-left: 3.5em;
     margin-right: 3em;
     margin-bottom: 0.4em;
     background-color: white;
@@ -135,6 +128,10 @@ body {
     margin-bottom: 0.5em;
 }
 
+.ica {
+    margin-top: 2em;
+}
+
 .text:hover,
 .text:focus,
 .text:active {
@@ -151,7 +148,6 @@ body {
 }
 
 .footer {
-    /* height: 3.5%; */
     background-color: white;
     font-size: 1.1rem;
     color: #786680;
@@ -190,35 +186,32 @@ body {
     height: 2em;
 }
 
-@media (max-width: 700px) {
+@media (min-width: 700px) and (min-height: 500px) {
     .head-links {
-        display: none;
+        display: inline;
+        text-decoration: none;
+        color: #423b46;
+        font-size: 1.8rem;
+        margin-left: 1.2em;
+        --clr-bg: #e8d0f2;
     }
 
     .title {
+        display: block;
+        font-size: 2.5rem;
+        color: #786680;
+        text-align: center;
+    }
+
+    .mobile-header {
         display: none;
     }
 
     .accordion:first-child {
-        margin-top: 2em;
-    }
-
-    .mobile-header {
-        display: block;
-        margin: auto;
-        font-size: 2rem;
-        color: #786680;
-    }
-
-    .header {
-        padding-top: 1em;
-    }
-
-    .ica {
-        margin-top: 2em !important;
+        margin-top: 0em;
     }
 
     .panel {
-        margin-left: 3.5em;
+        margin-left: 6em;
     }
 }
