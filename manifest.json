@@ -3,7 +3,7 @@
     "short_name": "Portal",
     "theme_color": "#ffffff",
     "background_color": "#ffffff",
-    "display": "standalone",
+    "display": "fullscreen",
     "scope": "/",
     "start_url": "https://btechextc.netlify.app/",
     "description": "A progressive web app for Btech EXTC 2022 batch of MPSTME engineering college",
