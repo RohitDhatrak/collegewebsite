@@ -27,6 +27,11 @@
 
             gtag("config", "UA-168216839-3");
         </script>
+        <script>
+            if (window.matchMedia('(display-mode: browser)').matches) {
+            download_icon.style.display = "block !important";
+            }
+        </script>
     </head>
 
     <body>
@@ -137,9 +142,6 @@
                     "Service worker has been registered for scope: " + reg.scope
                 );
             });
-        }
-        if (window.matchMedia('(display-mode: browser)').matches) {
-            download_icon.style.display = "block !important";
         }
     </script>
 </html>
