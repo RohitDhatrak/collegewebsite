@@ -104,7 +104,7 @@
         </footer>
         <img
             onclick="location.href = './download.html';"
-            class="download-icon"
+            class="download-icon download_icon"
             src="./images/download.svg"
             alt="Picture of Download Button"
         />
@@ -137,6 +137,9 @@
                     "Service worker has been registered for scope: " + reg.scope
                 );
             });
+        }
+        if (window.matchMedia("(display-mode: standalone)").matches) {
+            download_icon.style.display = "none";
         }
     </script>
 </html>
