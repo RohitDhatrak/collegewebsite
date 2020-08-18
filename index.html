@@ -138,8 +138,8 @@
                 );
             });
         }
-        if (window.matchMedia('(display-mode: standalone)').matches) {
-            download_icon.style.display = "none";
+        if (window.matchMedia('(display-mode: browser)').matches) {
+            download_icon.style.display = "block !important";
         }
     </script>
 </html>

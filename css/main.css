@@ -146,7 +146,7 @@ body {
 
 .download-icon {
     height: 1.8em;
-    display: block;
+    display: none;
     margin: auto;
     margin-top: 0.5em;
     margin-bottom: 0.1em;
