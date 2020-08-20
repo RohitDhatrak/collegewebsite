@@ -17,6 +17,7 @@ var preLoad = function () {
             "/offline.html",
             "/download.html",
             "/css/download.css",
+            "/quickaccess.html",
         ]);
     });
 };
