@@ -50,6 +50,7 @@ button:active::before {
     max-width: 1000px;
     border-radius: 1em;
     margin: auto;
+    margin-top: 2em;
     background-color: #e2bff1;
     padding: 1em;
 }
