@@ -115,12 +115,7 @@ body {
     -webkit-tap-highlight-color: transparent;
 }
 
-.panel-text {
-    margin-top: 0em;
-}
-
-.text,
-.ica-text {
+.text {
     text-decoration: none;
     color: black;
     font-size: 1.05rem;
@@ -128,23 +123,17 @@ body {
     margin-bottom: 0.5em;
 }
 
-.ica {
-    margin-top: 2em;
-}
-
 .text:hover,
 .text:focus,
 .text:active {
-    color: #807a81;
+    color: #4e4b50;
 }
 
-.list-header,
-.list-item {
+.syllabus-list {
     text-decoration: none;
     color: black;
     font-size: 1.05rem;
     padding-left: 0em;
-    margin-top: 0em;
 }
 
 .footer {

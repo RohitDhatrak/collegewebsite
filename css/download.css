@@ -28,6 +28,11 @@ h2 {
     margin-top: 3em;
 }
 
+h5 {
+    text-align: center;
+    color: #786680;
+}
+
 .videoWrapper {
     position: relative;
     padding-bottom: 51%; /* 16:9 */
@@ -40,9 +45,4 @@ h2 {
     left: 0;
     width: 100%;
     height: 100%;
-}
-
-h5 {
-    text-align: center;
-    color: #786680;
 }

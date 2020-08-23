@@ -43,7 +43,6 @@ body {
 }
 
 .main-section {
-    /* height: 65%; */
     width: 100%;
     border-radius: 2em 2em 0em 0em;
     background-color: white;
@@ -121,7 +120,6 @@ body {
 }
 
 .footer {
-    /* height: 3.5%; */
     background-color: white;
     font-size: 1.1rem;
     color: #786680;

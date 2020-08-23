@@ -4,7 +4,7 @@
         <meta charset="UTF-8" />
         <meta
             name="description"
-            content="A website for Btech EXTC 2022 batch of MPSTME engineering college"
+            content="A website for Btech EXTC 2022 batch of MPSTME college"
         />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <meta name="theme-color" content="#e8d0f2" />
@@ -14,65 +14,9 @@
             type="image/x-icon"
             href="./images/logo.svg"
         />
-        <style>
-            .flex-container {
-                display: flex;
-                justify-content: center;
-            }
-            button {
-                position: relative;
-                margin-bottom: 1em;
-            }
-            button::before {
-                content: "Supports Google & Apple calendar";
-                display: block;
-                position: absolute;
-                padding: 0.2em 0.5em;
-                background-color: white;
-                color: #423b46;
-                opacity: 0.7;
-                border-radius: 0.5em;
-                bottom: 110%;
-                right: 0;
-                font-size: 1rem;
-                transform: scale(0);
-                transition: transform ease-out 150ms, bottom ease-out 150ms;
-            }
-            button:hover::before,
-            button:focus::before,
-            button:active::before {
-                transform: scale(1);
-                bottom: 110%;
-                right: -20%;
-                white-space: nowrap;
-            }
-            .cal-button {
-                text-decoration: none;
-                padding: 0.65em 1em;
-                background-color: white;
-                font-size: 1rem;
-                color: #423b46;
-                border: none;
-                margin-top: 1em;
-                border-radius: 1em;
-            }
-            .cal-button:hover,
-            .cal-button:active {
-                background-color: #f3eeee;
-                cursor: pointer;
-            }
-            .ica {
-                height: 29em;
-                width: 85%;
-                max-width: 1000px;
-                border-radius: 1em;
-                margin: auto;
-                background-color: #e2bff1;
-                padding: 1em;
-            }
-        </style>
         <link rel="apple-touch-icon" href="./images/icon.png" />
         <link rel="stylesheet" href="./css/pages.css" />
+        <link rel="stylesheet" href="./css/ica.css" />
         <!-- Global site tag (gtag.js) - Google Analytics -->
         <script
             async
@@ -88,6 +32,7 @@
             gtag("config", "UA-168216839-3");
         </script>
     </head>
+    
     <body>
         <header class="header">
             <a href="./index.html" class="head-links">Home</a>
@@ -101,6 +46,7 @@
 
             <p class="mobile-header">ICA</p>
         </header>
+        
         <main class="main-section">
             <h1 class="title">ICA</h1>
             <div class="ica">
@@ -109,22 +55,24 @@
                         Add to your calendar
                     </button>
                 </div>
-                <span class="ica-text"></span>
+                <span class="text"></span>
             </div
         </main>
+        
         <footer class="footer">
             Developed by &nbsp;
             <a class="credits" href="https://www.linkedin.com/in/rohitdhatrak/"
                 >Rohit Dhatrak</a
             >
         </footer>
+        
         <img
             onclick="location.href = './download.html';"
             class="download-icon"
             src="./images/download.svg"
             alt="Picture of Download Button"
         />
-        <script src="./javascript/accordion.js"></script>
+        
         <script src="./javascript/outline.js"></script>
     </body>
 </html>

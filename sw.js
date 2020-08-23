@@ -18,6 +18,7 @@ var preLoad = function () {
             "/download.html",
             "/css/download.css",
             "/quickaccess.html",
+            "/css/ica.css",
         ]);
     });
 };
