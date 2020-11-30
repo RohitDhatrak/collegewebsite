@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta
+            name="description"
+            content="A website for Btech EXTC 2022 batch of MPSTME college"
+        />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta name="theme-color" content="#e8d0f2" />
+        <title>Btech EXTC Portal</title>
+        <link
+            rel="shortcut icon"
+            type="image/x-icon"
+            href="/images/logo.svg"
+        />
+        <link rel="apple-touch-icon" href="/images/icon.png" />
+        <link rel="stylesheet" href="/css/pages.css" />
+        <link rel="stylesheet" href="/css/ica.css" />
+        <!-- Global site tag (gtag.js) - Google Analytics -->
+        <script
+            async
+            src="https://www.googletagmanager.com/gtag/js?id=UA-168216839-3"
+        ></script>
+        <script>
+            window.dataLayer = window.dataLayer || [];
+            function gtag() {
+                dataLayer.push(arguments);
+            }
+            gtag("js", new Date());
+
+            gtag("config", "UA-168216839-3");
+        </script>
+    </head>
+    
+    <body>
+        <header class="header">
+            <a href="/sem5/sem5.html" class="head-links">Home</a>
+            <a href="/sem5/syllabus.html" class="head-links">Syllabus & T.T</a>
+            <a href="/sem5/notes.html" class="head-links"
+                >Notes & Slides</a
+            >
+            <a href="/sem5/books.html" class="head-links"
+                >Books & Videos</a
+            >
+
+            <p class="mobile-header">ICA</p>
+        </header>
+        
+        <main class="main-section">
+            <h1 class="title">ICA</h1>
+            <div class="ica">
+                <div class="flex-container">
+                    <button onclick="location.href='/myevents.ics';" class="cal-button">
+                        Add to your calendar
+                    </button>
+                </div>
+                <span class="text"></span>
+            </div
+        </main>
+        
+        <footer class="footer">
+            Developed by &nbsp;
+            <a class="credits" href="https://www.linkedin.com/in/rohitdhatrak/"
+                >Rohit Dhatrak</a
+            >
+        </footer>
+        
+        <img
+            onclick="location.href = '/download.html';"
+            class="download-icon"
+            src="/images/download.svg"
+            alt="Picture of Download Button"
+        />
+        
+        <script src="/javascript/outline.js"></script>
+    </body>
+</html>

@@ -11,7 +11,6 @@
         <link rel="shortcut icon" type="image/svg" href="/images/logo.svg" />
         <link rel="apple-touch-icon" href="/images/icon512.png" />
         <meta name="theme-color" content="#e8d0f2" />
-        <link rel="manifest" href="/manifest.json" />
         <link rel="stylesheet" href="/css/main.css" />
         <!-- Global site tag (gtag.js) - Google Analytics -->
         <script
@@ -38,7 +37,7 @@
         <main class="main-section">
             <div class="row1">
                 <button
-                    onclick="location.href = '/sem6/syllabus.html';"
+                    onclick="location.href = './syllabus.html';"
                     class="button button1"
                 >
                     <img
@@ -50,7 +49,7 @@
                 </button>
 
                 <button
-                    onclick="location.href = '/sem6/ica.html';"
+                    onclick="location.href = './ica.html';"
                     class="button button2"
                     style="padding-bottom: 0.5em"
                 >
@@ -75,7 +74,7 @@
 
             <div class="row2">
                 <button
-                    onclick="location.href = '/sem6/notes.html';"
+                    onclick="location.href = './notes.html';"
                     class="button button3"
                 >
                     <img
@@ -87,7 +86,7 @@
                 </button>
 
                 <button
-                    onclick="location.href = '/sem6/books.html';"
+                    onclick="location.href = './books.html';"
                     class="button button4"
                 >
                     <img
@@ -100,7 +99,7 @@
             </div>
 
             <div class="sems">
-                <a href="/sem5/sem5.html">Sem 5</a>
+                <a href="/index.html">Sem 6</a>
             </div>
         </main>
 
@@ -139,15 +138,5 @@
         }
 
         getQuote();
-    </script>
-
-    <script>
-        if (!navigator.serviceWorker.controller) {
-            navigator.serviceWorker.register("/sw.js").then(function (reg) {
-                console.log(
-                    "Service worker has been registered for scope: " + reg.scope
-                );
-            });
-        }
     </script>
 </html>
