@@ -9,8 +9,10 @@ var preLoad = function () {
         return cache.addAll([
             "/index.html",
             "/css/main.css",
-            "/ica.html",
-            "/syllabus.html",
+            "/sem6/ica.html",
+            "/sem6/syllabus.html",
+            "/sem6/notes.html",
+            "/sem6/books.html",
             "/css/pages.css",
             "/javascript/accordion.js",
             "/javascript/outline.js",
